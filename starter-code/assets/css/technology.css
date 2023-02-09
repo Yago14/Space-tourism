@@ -1,0 +1,76 @@
+html,
+body {
+      height: 100%;
+      width: 100vw;
+      background-image: url("/starter-code/assets/technology/background-technology-desktop.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+}
+.info{
+      height: 420px;
+      width: 400px;
+     
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      
+}
+#name{
+      margin: 2rem 0 0 0;
+      text-transform: uppercase;
+}
+p{
+      margin: 2rem 0 0 0 ;
+}
+.info h1{
+      margin: 2rem 0;
+      text-transform: uppercase;
+}
+.image{
+      width: 400px;
+      margin: auto;
+}
+.navigation{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+   
+}
+
+.navigation button{
+      margin-bottom: 5rem ;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background-color: transparent;
+      border: 1px solid #ffffff52;
+      color: #fff;
+      font-size: 1rem;
+      transition: all 400ms;
+
+}
+.navigation button:hover{
+      color: #000;
+      background-color: #fff;
+      scale: 1.1;
+      cursor: pointer;
+
+}
+.image{
+      width: 520px;
+      height: 530px;
+      margin: auto;
+
+}
+.img{
+      height: 100%;
+      width: 100%;
+}
+
